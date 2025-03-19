@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: Arial, sans-serif;
+  /* Initially hide the UI */
+  display: none;
+}
+
+/* Base styling for the notification UI */
+.notification {
+  padding: 15px 25px;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 9999;
+}
+
+/* Positioning classes */
+.notification.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.notification.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.notification.left {
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.notification.right {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
