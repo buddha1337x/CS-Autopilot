@@ -13,11 +13,7 @@ client_scripts {
     'client/*.lua',
 }
 
-server_scripts {
-    'server/server.lua',
-}
-
 
 files {
-    'html/*.*'
+    'html/*.*',
 }
